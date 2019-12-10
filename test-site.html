@@ -1,0 +1,69 @@
+
+
+<style>.diagram-page-container{width:686px;margin:0 auto;font-family:"Open Sans",sans-serif}.key-img{width:686px}.border-gradient{border-top:2px solid #fff;border-bottom:4px solid #f7f7f7;margin-bottom:20px}.img-container{height:435px;padding-top:35px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly}.slider{border:4px solid #009fe3;background:-webkit-gradient(linear,left bottom,left top,from(#f7f7f7),to(#fff));background:linear-gradient(to top,#f7f7f7,#fff)}.img-container img{position:absolute;height:400px}.fab-img{opacity:0}.text-container{width:95%;margin:0 auto}.container p{line-height:1.6rem!important;font-size:1rem!important;padding-bottom:1rem}.animation-nav{width:50%;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly}.animation-nav button{width:34px;height:34px;border-radius:50%;border:2px solid #009fe3;color:#fff;background:#009fe3;cursor:pointer;font-size:1.4rem;font-family:"Open Sans",sans-serif}.animation-nav button:active,.animation-nav button:hover{padding:0 8px;background:#fff;color:#009fe3}.fab-step-1{opacity:1}.fab-img{-webkit-transition:opacity 1s ease-in;transition:opacity 1s ease-in}.fab-text-2,.fab-text-3,.fab-text-4{display:none}.app-notes ul{list-style:none;padding-left:20px}.app-notes li{margin-top:1rem;line-height:1.6rem!important}.fa-map-marker-alt{-webkit-transform:rotate(-90deg);transform:rotate(-90deg);margin-left:-20px;font-size:.95rem;color:#003a5c}.overview-open-container{margin-bottom:1rem}.overview-open{background:#009fe3;border:3px solid #009fe3;color:#fff;font-family:"Open Sans",sans-serif;display:-webkit-box;display:-ms-flexbox;display:flex;margin:0 auto;margin-top:-20px;padding:10px 20px;text-transform:uppercase;font-weight:600;cursor:pointer}.overview-open p{padding:0;margin:0}.overview-open:hover{background:#fff;color:#009fe3}.overview{display:none;opacity:0;-webkit-transition:opacity 1s ease-in;transition:opacity 1s ease-in;position:fixed;width:100vw;height:100vh;background:rgba(34,34,34,.8);top:0;left:0}.overview-exit{position:fixed;right:30px;top:30px;background:#009fe3;display:inline-block;border:3px solid #009fe3;border-radius:10%;cursor:pointer}.overview-exit:hover{background:#fff}.overview-exit:hover p{color:#009fe3}.overview-exit p{font-size:3rem!important;color:#fff;text-align:center;margin:20px 10px;padding-bottom:4px}.overview-img-container{width:95%;margin:0 auto;margin-top:1rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.overview-img{width:25%;color:#fff}.overview-img img{background:#fff;margin-bottom:-3px}.overview-img p{width:95.2%;padding-top:15px;padding-left:10px;margin:0;background:#00172b;height:80px}.overview-key{width:55%;margin:0 auto}.overview-key img{padding-left:10%;padding-right:10%;margin-top:3rem;margin-bottom:2rem}</style>
+
+<script src="https://kit.fontawesome.com/f8fa80ab4c.js" crossorigin="anonymous"></script>
+
+<div class="diagram-page-container">
+    <img class="key-img" src="img/key-wide.png">
+    <div class="slider">
+        <div class="img-container">
+            <img class="fab-img fab-step-1" src="img/step-1.png">
+            <img class="fab-img fab-step-2" src="img/step-2.png">
+            <img class="fab-img fab-step-3" src="img/step-3.png">
+            <img class="fab-img fab-step-4" src="img/step-4.png">
+        </div>
+        <div class="border-gradient"></div>
+        <div class="animation-nav">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+        </div>
+        <div class="text-container">
+            <p class="fab-text-1"><strong>Step 1. </strong>After blocking with normal serum, incubate with the first primary antibody, in this example Rabbit Anti-Antigen X. Wash.</p>
+            <p class="fab-text-2"><strong>Step 2. </strong>Incubate with excess conjugated secondary antibody, in this example Alexa Fluor&reg; 488-Fab fragment Goat Anti-Rabbit, lgG (H+L). Wash.</p>
+            <p class="fab-text-3"><strong>Step 3. </strong>Incubate with the second primary antibody, Rabbit Anti-Antigen Y.</p>
+            <p class="fab-text-4"><strong>Step 4. </strong>Incubate with a second conjugated secondary antibody, in this example Rhodamine Red&trade;-X-Goat Anti-Rabbit lgG (H+L). Wash.</p>
+        </div>
+        <div class="overview-open-container">
+            <button class="overview-open">
+                <p>Open an overview of the process here!</p>
+            </button>
+        </div>
+    </div>
+    <div class="app-notes">
+        <h4>Application Notes:</h4>
+        <ul>
+            <li><i class="fas fa-map-marker-alt"></i>&nbsp; Monovalent Fab fragments have not been absorbed against other species, so they may cross-react with endogenous lg. Use example C to avoid detection of endogenous lg.</li>
+            <li><i class="fas fa-map-marker-alt"></i>&nbsp; Example A may require a high concentration of conjugated Fab to saturate the first primary antibody. If this results in unacceptable background, try a lower concentration of the conjugated Fab, followed by further blocking with unconjugated Fab.</li>
+        </ul>
+    </div>
+    <div class="overview">
+        <button class="overview-exit">
+            <p>X</p>
+        </button>
+        <div class="overview-key">
+            <img src="img/key-wide.png">
+        </div>
+        <div class="overview-img-container">
+            <div class="overview-img">
+                <img src="img/overview-set/step-1.png">
+                <p><strong>Step 1. </strong>After blocking with normal serum, incubate with the first primary antibody, in this example Rabbit Anti-Antigen X. Wash.</p>
+            </div>
+            <div class="overview-img">
+                <img src="img/overview-set/step-2.png">
+                <p><strong>Step 2. </strong>Incubate with excess conjugated secondary antibody, in this example Alexa Fluor&reg; 488-Fab fragment Goat Anti-Rabbit, lgG (H+L). Wash.</p>
+            </div>
+            <div class="overview-img">
+                <img src="img/overview-set/step-3.png">
+                <p><strong>Step 3. </strong>Incubate with the second primary antibody, Rabbit Anti-Antigen Y.</p>
+            </div>
+            <div class="overview-img">
+                <img src="img/overview-set/step-4.png">
+                <p><strong>Step 4. </strong>Incubate with a second conjugated secondary antibody, in this example Rhodamine Red&trade;-X-Goat Anti-Rabbit lgG (H+L). Wash.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>let diagramContainer=document.querySelector(".img-container"),diagrams=document.querySelector(".img-container").children,buttons=document.querySelector(".animation-nav").children,stepText=document.querySelector(".text-container").children,overviewContainer=document.querySelector(".overview"),overviewOpen=document.querySelector(".overview-open"),overviewClose=document.querySelector(".overview-exit"),body=document.getElementsByTagName("BODY");overviewOpen.addEventListener("click",()=>{overviewContainer.style.display="block",overviewContainer.style.opacity="1",body[0].style.overflowY="hidden"}),overviewClose.addEventListener("click",()=>{overviewContainer.style.display="none",overviewContainer.style.opacity="0",body[0].style.overflowY="visible"});for(let i=0;i<diagramContainer.children.length;i++)buttons[i].addEventListener("click",()=>{for(let x=i;x<diagramContainer.children.length;x++){diagrams[x].style.opacity="0",diagrams[i].style.opacity="1";for(let y=1;y<i;y++)diagrams[y].style.opacity="1"}for(let x=0;x<diagramContainer.children.length;x++)stepText[x].style.display="none",stepText[i].style.display="block"});</script>
